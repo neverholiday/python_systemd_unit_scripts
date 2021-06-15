@@ -1,3 +1,6 @@
+#	Command copy to systemd
+#sudo /bin/cp -v simple_example_python.service /lib/systemd/system
+
 #	Command to copy file to /usr/bin
 sudo /bin/cp -v python_loop_services.py /usr/local/bin
-sudo /bin/cp -v simple_example_python.service /lib/systemd/system
+sudo /bin/cp -v internal_script.py /usr/local/bin

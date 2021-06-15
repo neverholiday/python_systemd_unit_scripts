@@ -1,0 +1,19 @@
+[Unit]
+
+# Unit file description
+Description=Python Simple Service
+
+
+[Service]
+
+#	Simple service type
+Type=simple
+
+#	Execute command
+ExecStart=/usr/bin/python3 //usr/local/bin/python_loop_services.py
+
+#	Export stdout 
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
